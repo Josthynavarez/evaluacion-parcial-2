@@ -20,3 +20,14 @@ const precioFinal = precioOriginal - ahorro;
 
 console.log("Precio final con descuento:", precioFinal);
 console.log("Dinero ahorrado:", ahorro);
+
+function clasificarEdad(edad){
+    if(edad <18){
+        console.log("Menor de edad");
+    }else if (edad <= 65) {
+        console.log ("Adulto");
+    }else{
+        console.log("Adulto mayor");
+    }
+}
+clasificarEdad(25);
