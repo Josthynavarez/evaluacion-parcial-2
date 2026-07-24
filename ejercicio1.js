@@ -31,3 +31,14 @@ function clasificarEdad(edad){
     }
 }
 clasificarEdad(25);
+
+let sumaTotal = 0;
+for (let i = 1; i <= 20; i ++){
+    if (i % 2 === 0){
+        console.log(i + "Es par");
+    }else{
+        console.log(i +"Es impar");
+    }
+    sumaTotal += i;
+}
+console.log ("LA suma total es:", sumaTotal);
